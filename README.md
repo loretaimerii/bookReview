@@ -14,7 +14,7 @@ PHP (version 7.x or higher) Composer MySQL or a compatible database Laravel
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=kerkimiilaqeve
+   DB_DATABASE=bookReview
    DB_USERNAME=root
    DB_PASSWORD=
 4. Generate application key: Run the following command to generate an application key: php artisan key:generate
