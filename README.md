@@ -8,7 +8,7 @@ PHP (version 7.x or higher) Composer MySQL or a compatible database Laravel
 
 2. Steps to Setup the Project
 1. Clone the repository: git clone https://github.com/loretaimerii/bookReview.git
-   cd kerkimiIlaqeve
+   cd bookReview
 2. Install dependencies: Use Composer to install all required packages: composer install
 3. Configure environment variables: Copy the .env.example file to .env: cp .env.example .env, and configure the database connection, chnange these lines
    DB_CONNECTION=mysql
