@@ -20,7 +20,7 @@ PHP (version 7.x or higher) Composer MySQL or a compatible database Laravel
 4. Generate application key: Run the following command to generate an application key: php artisan key:generate
 5. Set up the database: Run the migrations to create the necessary database tables: php artisan migrate
 6. Generate fake data using seeders: php artisan migrate --seed
-7. Run the application: Start the application locally using: php artisan 
+7. Run the application: Start the application locally using: php artisan serve
  
 Project Structure
 app/: Contains the application's core logic, including models and controllers. resources/views/: Contains the Blade template views for rendering the HTML. routes/web.php: Defines the routes for the application (e.g., home, register, login). database/migrations/: Contains the migration files used to create and update the database schema.
